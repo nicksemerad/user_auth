@@ -23,3 +23,27 @@ def change
   end
 
 rake db:migrate
+
+yarn create react-app client
+
+plan app
+
+yarn add axios react-router-dom semantic-ui-css semantic-ui-react devise-axios
+
+client folder/ package.json add => "proxy": "http://localhost:3001",
+
+providers/components folders in src
+
+in index.js
+import 'semantic-ui-css/semantic.min.css';
+import { BrowserRouter } from 'react-router-dom';
+wrap the app in <BrowserRouter>
+
+create the auth provider
+import axios/ react -- see AuthProvider.js
+gist on ghub
+
+wrap app in index.js in the <AuthProvider>, around the BrowserRouter
+
+
+
